@@ -1018,17 +1018,18 @@ function uiCanvasInit() {
     if (!context) {
         $('#canvasmenu').hide();
         uiUpdatePreloadingProccess(100, true);
-        location.href = 'index.html';
+        location.href = 'https://iconcanva.vercel.app/';
         return false;
     }
 
     var previewProject = canvas.getAttribute('data-preview');
-    var canvasUrl = 'canvasdata';
+    var canvasUrl = 'https://web.archive.org/web/20150917062218/http://big.dk/default/index/canvasdata';
+    console.log('------------- canvasUrl -------------- : ' + canvasUrl);
     if (previewProject.length) canvasUrl += ('?previewproject=' + previewProject);
     canvasApp.canvas = canvas;
     canvasApp.context = context;
     $.ajax({
-        url: canvasUrl,
+        url: 'https://web.archive.org/web/20150917062218/http://big.dk/default/index/canvasdata',
         type: "post",
         context: this,
         beforeSend: function () {

@@ -141,7 +141,7 @@ var globeApp = {
     texture: null,
     textureCanBeUsed: false,
     textureImg: null,
-    textureImgSrc: '/layouts/default/scripts/globe/earth_atmos_2048.jpg',
+    textureImgSrc: 'https://web.archive.org/web/20140319094625/http://big.dk/layouts/default/scripts/globe/earth_atmos_2048.jpg',
     TEXTURE_MAG_FILTER: 'LINEAR', //LINEAR|NEAREST
     TEXTURE_MIN_FILTER: 'LINEAR',
     /* picking */
@@ -982,8 +982,8 @@ var globeApp = {
                     pAlpha: 0,
                     textureCanBeUsed: false,
                     pTextureCanBeUsed: false,
-                    textureImgSrc: 'textures/icons/icon_0.png',
-                    pTextureImgSrc: 'textures/icons/picon.jpg',
+                    textureImgSrc: 'https://web.archive.org/web/20140319094625/http://big.dk/textures/icons/icon_0.png',
+                    pTextureImgSrc: 'https://web.archive.org/web/20140319094625/http://big.dk/textures/icons/picon.jpg',
                     rotX: 0,
                     rotY: 0,
                     rotZ: 0,
