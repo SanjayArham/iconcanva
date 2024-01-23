@@ -1023,7 +1023,7 @@ function uiCanvasInit() {
     }
 
     var previewProject = canvas.getAttribute('data-preview');
-    var canvasUrl = 'https://web.archive.org/web/20150917062218/http://big.dk/default/index/canvasdata';
+    var canvasUrl = '/canvasdata.json';
     console.log('------------- canvasUrl -------------- : ' + canvasUrl);
     if (previewProject.length) canvasUrl += ('?previewproject=' + previewProject);
     canvasApp.canvas = canvas;

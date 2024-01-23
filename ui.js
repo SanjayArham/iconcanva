@@ -618,7 +618,7 @@ function uiSearchInit() {
     
     var availableTags = [];
     $.ajax({
-        url: 'https://web.archive.org/web/20130201143215/http://big.dk/search/index/popularkeywords',
+        url: '/popularkeywords.json',
         type: 'post',
         dataType: 'json',
         success: function(data) {
