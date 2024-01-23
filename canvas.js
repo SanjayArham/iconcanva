@@ -1029,7 +1029,7 @@ function uiCanvasInit() {
     canvasApp.canvas = canvas;
     canvasApp.context = context;
     $.ajax({
-        url: 'https://web.archive.org/web/20150917062218/http://big.dk/default/index/canvasdata',
+        url: canvasUrl,
         type: "post",
         context: this,
         beforeSend: function () {
