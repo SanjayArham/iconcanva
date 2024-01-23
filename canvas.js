@@ -1018,7 +1018,7 @@ function uiCanvasInit() {
     if (!context) {
         $('#canvasmenu').hide();
         uiUpdatePreloadingProccess(100, true);
-        location.href = 'https://iconcanva.vercel.app/';
+        location.href = 'iconcanva-git-main-sanju1.vercel.app/';
         return false;
     }
 
